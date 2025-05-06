@@ -309,7 +309,9 @@ it('API Login', () =>{
  }).then(response =>{
     cy.log(JSON.stringify(response.body))
     expect(response.status).to.eq(200) // verifica se o status e 200
-           
+    
+    
+    
  })
  })
 
